@@ -1,13 +1,147 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.loading {
+  margin-left: 47vw !important;
+  margin-top: 19vw !important;
+  height: 70px !important;
+  width: 70px !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@media screen and (min-width:950px) {
+
+
+  .card-body {
+    margin-top: -910px !important;
+    color: #fff !important;
+    font-family: 'SF Pro Display';
+  }
+
+  .card {
+    border-radius: 0px !important;
+  }
+
+  .card-img-top {
+    width: 100% !important;
+    border-radius: 0px !important;
+
+  }
+
+  .card-body {
+    backdrop-filter: blur(2px);
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 770px;
+    padding-left: 100px !important;
+  }
+
+  .celc {
+    font-size: 80px !important;
+    font-weight: 900 !important;
+  }
+
+  .down {
+    margin-top: 76px;
+    display: flex;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 18px 0px 15px 0px;
+    border-radius: 43px !important;
+    margin-left: -80px;
+    /* color: #000 !important; */
+  }
+
+  .one {
+    padding-left: 100px !important;
+  }
+
+  .one-text {
+    font-weight: 100 !important;
+    text-decoration: none !important;
+  }
+
+  .upper {
+    display: flex;
+    margin-top: 90px !important;
+  }
+
+  .right {
+    margin-left: 500px;
+    display: flex;
+  }
+
+  .right-text {
+    margin-left: 15px !important;
+    margin-top: 5px !important;
+  }
+
+  table h1 {
+    margin-left: 30px !important;
+  }
+
+  .icon {
+    font-size: 40px !important;
+    color: #fff;
+    padding-top: -100px !important;
+    margin-right: 10px !important;
+  }
+
+  .card-body form {
+    margin-top: -80px !important;
+    margin-left: 400px !important;
+  }
+
+  .card-body input {
+    border: none;
+    outline: none;
+    border-radius: 43px;
+    height: 45px !important;
+    width: 350px !important;
+    background: none !important;
+    backdrop-filter: blur(5px);
+    color: #fff !important;
+  }
+
+  .card-body input::placeholder {
+    color: #fff !important;
+  }
+
+  input {
+    padding-left: 50px !important;
+    margin-left: -10px !important;
+  }
+
+    body {
+      overflow-y: hidden;
+    }
+
+    .search-icon{
+      margin-left: -330px !important;
+      font-size: 20px;
+      font-weight: 700 !important;
+      color: #fff !important;
+      background: none !important;
+    }
+    .clock{
+      width: 320px;
+      margin-left: 850px !important;
+      margin-top: -58px !important;
+      display: flex;
+      border-radius: 12px;
+
+      padding: 20px 20px 10px 20px;
+    }
+    #time{
+      margin-left: 30px !important;
+    }
+    .logo{
+      margin-top: -43px !important;
+      width: 260px;
+      border-radius: 12px !important;
+      cursor:default;
+      color: #fff;
+      padding: 14px 10px 10px 14px !important;
+    } 
+    .logo h3{
+      font-weight: 900 !important;
+      font-size: 30px !important;
+      font-family: 'Satisfy' !important;
+    }
+  }
